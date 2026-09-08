@@ -27,7 +27,7 @@ struct OpenCodeCodexUsageScanner: Sendable {
 
     /// Best-effort supplementary scan: failures are logged loudly but never hide Codex's live quota
     /// meters or native history. This matches pi's role as an optional local source.
-    func scan(now: Date, daysBack: Int = 30, pricing: ModelPricing) async -> LogUsageScan? {
+    func scan(now: Date, daysBack: Int = 365, pricing: ModelPricing) async -> LogUsageScan? {
         do {
             guard try authStore.hasCodexOAuth() else { return nil }
         } catch {
