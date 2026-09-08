@@ -42,6 +42,7 @@ enum ProviderCatalog {
             CodexProvider(),
             CursorProvider(),
             AntigravityProvider(),
+            CommandCodeProvider(),
             CopilotProvider(defaults: defaults),
             DevinProvider(),
             GrokProvider(),

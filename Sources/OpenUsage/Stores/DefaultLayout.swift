@@ -16,6 +16,8 @@ enum DefaultLayout {
         "codex.session", "codex.weekly", "codex.spark", "codex.sparkWeekly", "codex.trend",
         "codex.credits", "codex.rateLimitResets", "codex.today", "codex.yesterday", "codex.last30",
 
+        "commandcode.trend", "commandcode.today", "commandcode.yesterday", "commandcode.last30",
+
         "cursor.usage", "cursor.auto", "cursor.api", "cursor.grokBot", "cursor.trend",
         "cursor.onDemand", "cursor.today", "cursor.yesterday", "cursor.last30",
 
@@ -100,6 +102,9 @@ enum DefaultLayout {
         // caret. Chat/Completions carry real counts on free only — on paid they're unlimited
         // (suppressed), so they read "No data" there.
         "copilot.orgCredits", "copilot.orgSpend", "copilot.chat", "copilot.completions",
+        // Command Code: Usage Trend stays above the fold; the spend tiles sit below the caret, matching
+        // the other local-scanner providers.
+        "commandcode.today", "commandcode.yesterday", "commandcode.last30",
         "devin.extra",
         "grok.payAsYouGo", "grok.today", "grok.yesterday", "grok.last30",
         // Kimi: the Session/Weekly quota meters and Usage Trend stay above the fold; the spend tiles
