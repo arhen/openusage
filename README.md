@@ -24,7 +24,6 @@ Either way, the app updates itself in place via signed, notarized [Sparkle](docs
 
 - **[Antigravity](docs/providers/antigravity.md)** — shared Gemini and Claude pool quotas, 5-hour and weekly windows
 - **[Claude](docs/providers/claude.md)** — session, weekly, model-specific limits, extra usage, local daily spend
-- **[Command Code](docs/providers/commandcode.md)** — local daily spend and usage trend from pi logs (no usage API exists)
 - **[Codex](docs/providers/codex.md)** — session, weekly, credits, local daily spend
 - **[Copilot](docs/providers/copilot.md)** — AI credits, extra usage, organization billing, chat and completions
 - **[Cursor](docs/providers/cursor.md)** — credits, total usage, Grok Bot, Cursor Models, Other Models, requests, on-demand, per-day spend
